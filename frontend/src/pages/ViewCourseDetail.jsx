@@ -112,6 +112,7 @@ useEffect(() => {
     courses?.filter(
       (c) => c.creator === creatorData?._id && c._id !== courseId
     ) || [];
+  console.log(creatorCourses);
 
   const handleEnroll = async (courseId, userId) => {
     try {

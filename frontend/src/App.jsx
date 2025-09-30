@@ -11,7 +11,7 @@ import { userLoadingSelector, userSelector } from './redux/userSlice'
 import ForgetPassword from './pages/ForgetPassword'
 import EditProfile from './pages/EditProfile'
 import { ClipLoader } from 'react-spinners'
-export const serverURL =  "http://localhost:8000";
+export const serverURL =  "https://lms-website-26nf.onrender.com";
 import Dashboard from './pages/Educator/DashBoard';
 import Courses from './pages/Educator/Courses';
 import CreateCourse from './pages/Educator/CreateCourse'

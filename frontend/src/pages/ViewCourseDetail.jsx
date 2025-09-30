@@ -109,7 +109,7 @@ useEffect(() => {
 }, [userData, courseId]);
   // ✅ Filter creator’s other courses (no need for state)
   const creatorCourses =
-    courses?.filter(
+    courseData?.filter(
       (c) => c.creator === creatorData?._id && c._id !== courseId
     ) || [];
   console.log("creator"+creatorCourses);

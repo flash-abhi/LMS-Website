@@ -347,7 +347,7 @@ useEffect(() => {
             Other Published Courses by the Educator
           </p>
           <div className="w-full flex flex-wrap gap-6">
-            {creatorCourses.map((course, i) => (
+            {creatorCourses?.map((course, i) => (
               <PublishedCard
                 key={i}
                 thumbnail={course.thumbnail}
